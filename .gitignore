@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Conda
+.env
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# GROMACS outputs
+*.xvg
+*.edr
+*.log
+*.trr
+*.cpt
+
+# Temporary files
+*~
+#*#
+*.bak
+
+# Analysis outputs
+outputs/
