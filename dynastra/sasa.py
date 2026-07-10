@@ -7,6 +7,7 @@ def calculate_sasa(
     xtc,
     output="sasa.xvg",
     group=1,
+    dt=1000,
 ):
 
     command = (
@@ -14,6 +15,7 @@ def calculate_sasa(
         f'gmx sasa '
         f'-s "{tpr}" '
         f'-f "{xtc}" '
+        f'-dt "{dt}" '
         f'-o "{output}"'
     )
 

@@ -2,24 +2,19 @@
 __pycache__/
 *.pyc
 
-# Conda
-.env
-.venv
-
-# Jupyter
-.ipynb_checkpoints/
-
 # GROMACS outputs
 *.xvg
 *.edr
-*.log
 *.trr
 *.cpt
+*.log
 
-# Temporary files
+# Images
+*.png
+
+# Generated outputs
+outputs/
+
+# Editor backup files
 *~
 #*#
-*.bak
-
-# Analysis outputs
-outputs/
